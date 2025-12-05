@@ -77,7 +77,9 @@ const Navbar: React.FC = () => {
         <div className="flex items-center gap-8 bg-transparent md:bg-[#1D1D1D] rounded-full px-0 md:px-8 py-0 md:py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={logo} alt="HiBeats Logo" className="h-8 w-auto" />
+            <a href="https://hibeats.xyz/" target="_blank" rel="noopener noreferrer">
+              <img src={logo} alt="HiBeats Logo" className="h-8 w-auto cursor-pointer" />
+            </a>
           </div>
 
           {/* Desktop Navigation */}
@@ -148,7 +150,7 @@ const Navbar: React.FC = () => {
 
         {/* Right side: Join Beta Button */}
         <div className="hidden md:flex items-center bg-[#1D1D1D] rounded-full px-3 py-3">
-          <a href="https://hibeats.xyz/feed" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 group">
+          <a href="https://app.hibeats.xyz/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 group">
             <span className="relative overflow-hidden bg-black text-white font-medium px-5 py-2 rounded-full transition-all">
               <span className="absolute inset-0 bg-gradient-to-r from-[#D5FD4C] to-[#D5FD4C] rounded-full -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500 ease-out"></span>
               <span className="relative z-10 group-hover:text-black transition-colors duration-300">Join Beta!</span>
@@ -197,7 +199,7 @@ const Navbar: React.FC = () => {
               )}
             </div>
           ))}
-          <a href="https://hibeats.xyz/feed" target="_blank" rel="noopener noreferrer" className="w-full bg-[#D5FD4C] hover:bg-[#C5E03C] text-black font-medium px-5 py-3 rounded-full flex items-center justify-center gap-2">
+          <a href="https://app.hibeats.xyz/" target="_blank" rel="noopener noreferrer" className="w-full bg-[#D5FD4C] hover:bg-[#C5E03C] text-black font-medium px-5 py-3 rounded-full flex items-center justify-center gap-2">
             Join Beta!
             <ArrowRight className="w-4 h-4" />
           </a>

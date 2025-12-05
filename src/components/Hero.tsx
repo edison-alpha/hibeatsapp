@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
                         </p>
 
                         <div className="flex justify-center">
-                            <a href="https://hibeats.xyz/feed" target="_blank" rel="noopener noreferrer">
+                            <a href="https://app.hibeats.xyz/" target="_blank" rel="noopener noreferrer">
                                 <Button variant="outline" className="!px-10 !py-4 !text-lg !rounded-full !border-white/50 hover:!border-accent hover:!bg-accent/5 shadow-[0_10px_30px_-10px_rgba(213,253,76,0.2)] transition-all duration-300 hover:scale-105">
                                     Join Beta !
                                 </Button>

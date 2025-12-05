@@ -24,7 +24,7 @@ const HeroSection = () => {
           powered by <span className="text-white font-bold">SUNTIER</span>
         </p>
 
-        <a href="https://hibeats.xyz/feed" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-10 py-4 rounded-full font-medium text-lg hover:bg-accent transition-all hover:scale-105 mb-20 inline-block">
+        <a href="https://app.hibeats.xyz/" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-10 py-4 rounded-full font-medium text-lg hover:bg-accent transition-all hover:scale-105 mb-20 inline-block">
           Join Beta!
         </a>
 
