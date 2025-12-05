@@ -1,6 +1,8 @@
+import { WavyBackground } from './ui/wavy-background';
+
 const HeroSection = () => {
   return (
-    <WavyLime
+    <WavyBackground
       containerClassName="relative min-h-screen flex items-center justify-center px-6 pt-20 overflow-hidden"
       className="max-w-5xl mx-auto text-center"
     >
@@ -50,7 +52,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </WavyLime>
+    </WavyBackground>
   )
 }
 
