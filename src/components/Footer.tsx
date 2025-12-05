@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-10 mb-20">
           {/* Logo */}
           <div>
-            <a href="https://hibeats.xyz/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.hibeats.xyz/" target="_blank" rel="noopener noreferrer">
               <img src={logo} alt="HiBeats" className="h-10 w-auto brightness-0 cursor-pointer" />
             </a>
           </div>

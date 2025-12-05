@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center gap-8 bg-transparent md:bg-[#1D1D1D] rounded-full px-0 md:px-8 py-0 md:py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="https://hibeats.xyz/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.hibeats.xyz/" target="_blank" rel="noopener noreferrer">
               <img src={logo} alt="HiBeats Logo" className="h-8 w-auto cursor-pointer" />
             </a>
           </div>
