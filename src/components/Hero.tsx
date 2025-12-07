@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
 
 
                         {/* Phone Image */}
-                        <div className="max-w-[220px] md:max-w-[320px] mx-auto perspective-1000">
+                        <div className="max-w-[200px] md:max-w-[280px] mx-auto perspective-1000">
                             <div className="relative transform transition-transform duration-700 hover:scale-105">
                                 <img
                                     src={phoneImg}
